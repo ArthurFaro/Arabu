@@ -1,5 +1,9 @@
 <html>
-
+<script>
+function ArchiveI() {
+document.getElementById("ArchiveI").innerHTML = "Arabu is a language learning app made by Arthur";
+}
+</script>
 <style>
 
 body {
@@ -14,7 +18,7 @@ a:visited {
   color: black;
 }
 a:hover {
-  color: yellow;
+  color: red;
 }
 button {
   background-color: transparent;
@@ -29,7 +33,7 @@ button {
 button:hover {
   background-color: transparent;
   border: none;
-  color: yellow;
+  color: red;
   padding: none;
   text-align: center;
   text-decoration: none;
@@ -40,19 +44,19 @@ h2 {
 text-align: center
 }
 img {
-  width: 100%;
+  width: 30%;
+      margin: -20px auto 0px;
+    display: block;
 }
 </style>
 <body>
-<img src="arabutopbanner.png">
 
-<a href="index.html"> <h2> Back to home</h2> </a>
-<h3>Yallah - Let's go / Come on / Used to get people moving, People will use the word “yallah” for everything, from getting stuck in car<br/> traffic to getting people on the dancefloor; using this word will make you feel like a true local.</h3>
+
+<button onclick="ArchiveI()"><h3> What is Arabu? </h3> </button>
+<h2 id="ArchiveI"> </h2>
+<img src="topchapter.png">
 <br/>
-<h3>I will fly. : hateer ana. | Note : this is a slang for good bye, and it is pronounced just as written</h3>
-<br/>
-<h3>Shut up : askut | Can also be used as "shush"</h3>
-<br/>
+<a href="greetings.html"><img src="greeting.png"></a>
 
 </body>
 </html>

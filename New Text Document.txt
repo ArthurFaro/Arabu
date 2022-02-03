@@ -18,7 +18,7 @@ a:visited {
   color: black;
 }
 a:hover {
-  color: yellow;
+  color: red;
 }
 button {
   background-color: transparent;
@@ -33,7 +33,7 @@ button {
 button:hover {
   background-color: transparent;
   border: none;
-  color: yellow;
+  color: red;
   padding: none;
   text-align: center;
   text-decoration: none;
@@ -51,9 +51,9 @@ img {
 <img src="arabutopbanner.png">
 
 <button onclick="ArchiveI()"><h3> What is Arabu? </h3> </button>
-<h2 id ="ArchiveI"> </h2>
-<a href="vocab.html"><h3>Vocab</h3> </a>
-<a href="slang.html"><h3>Slang</h3> </a>
+<h2 id="ArchiveI"> </h2>
+<img src="topchapter.png">
+<a href="greetings.html"><img src="greeting.png"></a>
 
 </body>
 </html>
